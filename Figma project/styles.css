@@ -112,19 +112,12 @@ body {
 .mainikki {
     width: 30%;
     height: 590px;
-    
+    flex-direction: column;
     display: flex;
-    flex-wrap: wrap;
+    gap: 16px;
+
 }
-.samakm
-{
-    width: 100%;
-    height: 70px;
-    background-color: blue;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .q
 {
     background-color: rgba(9, 91, 232, 0.193);
@@ -141,11 +134,62 @@ p
 {
     color: white;
 }
-.rd
+.samakm
 {
-height: 57px ;
-width: 50px;
-margin-left: -100px;
-margin-top: 1px;
-float: left;    
+    width: 370px;
+    height: 70px;
+    background-color: blue;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+.w
+{
+    width: 100px;
+    display: flex;
+    margin-top: 5px ;
+    margin-left: 10px;
+    
+}
+.r
+{
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 6px;
+
+} 
+.mainuch
+{
+    width: 100%;
+    height: 500px;
+      
+}
+.swe
+{
+    width: 300px;
+    height: 300px;
+      border: 5px solid blue;
+}
+.swelar
+{
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.swlar
+{
+     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     color: white;
+     height: 50px;
+}
+.sw
+{
+        width: 310px;
+background-color: blue;
+     height: 40px;
+    justify-content: center;
+    align-items: center;
+     display: flex;
 }
