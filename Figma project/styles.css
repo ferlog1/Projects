@@ -193,3 +193,52 @@ background-color: blue;
     align-items: center;
      display: flex;
 }
+.swelar p
+{
+    color: black;
+}
+.v
+{
+    background-color: greenyellow;
+    border: 2px solid;
+    height: 52px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swe a
+{
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.x p
+{
+    height: 26px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    color:white;
+    border: 0.5px solid white;
+}
+.f p
+{
+    height: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    background-color: gray;
+    color:white;
+    border: 0.5px solid white;
+}
+.players
+{
+        width: 1000px;
+background-color: blue;
+     height: 40px;
+    justify-content: center;
+    align-items: center;
+     display: flex;
+}
