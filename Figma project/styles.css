@@ -1,3 +1,5 @@
+
+
 header
 {
 width: 100%;
@@ -166,6 +168,7 @@ p
 }
 .swe
 {
+   
     width: 300px;
     height: 300px;
       border: 5px solid blue;
@@ -193,52 +196,71 @@ background-color: blue;
     align-items: center;
      display: flex;
 }
-.swelar p
-{
-    color: black;
-}
-.v
-{
-    background-color: greenyellow;
-    border: 2px solid;
-    height: 52px;
-    text-align: center;
+.m{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(153, 255, 0);
+    height: 52px;
+    color: black;
+    border: 2px solid black;
 }
-.swe a
-{
+.swe a{
+    
     color: black;
     display: flex;
     justify-content: center;
 }
-.x p
-{
+.x p{
     height: 26px;
     width: 100%;
-    display: flex;
     justify-content: center;
-    background-color: gray;
-    color:white;
-    border: 0.5px solid white;
+    display: flex;
+    background-color:gray;
+    border: 1px solid rgb(255, 255, 255);
 }
-.f p
-{
+.f p{
+    align-items: center;
     height: 54px;
     width: 100%;
-    display: flex;
-    justify-content: start;
-    background-color: gray;
-    color:white;
-    border: 0.5px solid white;
-}
-.players
-{
-        width: 1000px;
-background-color: blue;
-     height: 40px;
     justify-content: center;
-    align-items: center;
-     display: flex;
+    display: flex;
+    background-color:gray;
+    border: 1px solid rgb(255, 255, 255);
+}
+.maintort{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 98%;
+    height:330px;
+    border: 5px solid blue;
+}
+.usti h1{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+.l img{
+    background-color: blue;
+    margin: 10px;
+    height: 210px;
+    width: 200px;
+}
+.usti{
+    margin-left: 10px;
+    width: 98.7%;
+}
+.l p{
+    text-align: center;
+    font-size: 30px;
+    width: 210px;
+    color: blue;
+}
+.l a{
+    text-align: center;
+    color: black;
+    margin-left: 50px;
 }
